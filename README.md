@@ -1,59 +1,70 @@
-# 🌐 Animated Portfolio Website
+# 🌐 Animated Developer Portfolio
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **85K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+A modern, animated developer portfolio built with **React** and **Tailwind CSS** — showcasing skills, projects, and contact info with a clean UI and smooth experience.
 
-## 🚀 Live Demo
+🔗 **Live Demo:** [chethanrv-protfolio.onrender.com](https://chethanrv-protfolio.onrender.com)
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+---
+
+## ✨ Features
+
+- 📱 Fully responsive across mobile, tablet, and desktop
+- ✨ Smooth animations and transitions
+- 🧩 Modular, reusable React components
+- 📬 Functional contact form via EmailJS (no backend needed)
+- ⚡ Optimized performance with Vite
+
+---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+| Technology | Purpose |
+|---|---|
+| React.js (Vite) | Frontend framework |
+| Tailwind CSS | Styling |
+| EmailJS | Contact form integration |
+| Render | Deployment |
 
-## 📁 Features
+---
 
-- Responsive design for all screen sizes 📱💻
-- Smooth scroll and animation effects ✨
-- Clean and modular React components 🧩
-- Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
+## 📸 Sections
 
+- 🧑 About Me
+- 🛠️ Skills
+- 📂 Projects
+- 📬 Contact
 
-## 🧑‍💻 How to Use
+---
 
-### 1. Clone the Repo
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm
+
+### Installation
 
 ```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+# Clone the repository
+git clone https://github.com/chethan-r30/Protfolio.git
+cd Protfolio
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 npm install
-```
 
-### 3. Run the App
+# Run in development mode
+npm run dev
 
-```bash
-npm start
-```
+#✉️ EmailJS Setup
+This project uses EmailJS to handle contact form submissions without a backend.
 
-### 4. Build for Production
+Create a free EmailJS account
 
-```bash
-npm run build
-```
+Set up a service and email template
 
-## 📹 YouTube Tutorial
+Create a .env file in the root directory:
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 85K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
-
-## 🌟 Credits
-
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+text
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
