@@ -1,6 +1,6 @@
 import Tilt from 'react-parallax-tilt';
 import ReactTypingEffect from 'react-typing-effect';
-import profileImage from '../../assets/passport.png';
+import profileImage from '../../assets/Passport.png';
 
 const About = () => {
   return (
