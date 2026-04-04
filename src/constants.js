@@ -27,7 +27,7 @@ import APILOGO from './assets/tech_logo/Rest_api_logo.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
-
+import weatherLogo from './assets/work_logo/Weather.png';
 
 // Education Section Logo's
 import DsceLogo from './assets/education_logo/dsce.jpg';
@@ -166,8 +166,9 @@ export const SkillsInfo = [
       title: "WeatherNow",
       description:
         "A real-time weather application that provides accurate and up-to-date weather information for any location. Built using React.js and a weather API, it offers a user-friendly interface with detailed forecasts and interactive maps.",
-      //image: weatherLogo,
+      image: weatherLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/chethan-r30/WeatherNow",
+       webapp: "https://weathernow-302l.onrender.com",
     },
   ];  
